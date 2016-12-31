@@ -1,0 +1,56 @@
+/***********Full Site Styles************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/******* columns ********/
+
+#wrapper {
+  display: inline-flex;
+}
+
+/********* Column A **********/
+
+#titleA {
+  text-align: center;
+}
+
+#colA {
+  background-color: rgb(208, 224, 227);
+  border: 3px solid black;
+  margin-top: 1.5rem;
+  height: 45rem;
+  width: 15rem;
+}
+
+/********** STAGE ***********/
+
+#titleS {
+  text-align: center;
+}
+
+#stage {
+  background-color: rgb(239, 239, 239);
+  border: 3px solid black;
+  border-radius: 5%;
+  margin-top: 3.3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  height: 45rem;
+  width: 55rem;
+}
+
+/********* Column B **********/
+
+#titleB {
+  text-align: center;
+}
+
+#colB {
+  background-color: rgb(207, 226, 243);
+  border: 3px solid black;
+  margin-top: 1.5rem;
+  height: 45rem;
+  width: 15rem;
+}
