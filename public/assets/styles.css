@@ -4,87 +4,181 @@
   padding: 0;
 }
 
-/******* columns ********/
 
-#wrapper {
-  display: inline-flex;
+/************ DESKTOP STYLING **************/
+
+@media (min-width: 650px) {
+
+  /******* columns ********/
+
+  #wrapper {
+    display: inline-flex;
+  }
+
+  /********* Column A **********/
+
+  #titleA {
+    text-align: center;
+  }
+
+  #colA {
+    background-color: rgb(208, 224, 227);
+    border: 2px solid black;
+    margin-top: 1.5rem;
+    height: 45rem;
+    width: 15rem;
+  }
+
+  /********** STAGE ***********/
+
+  #titleS {
+    text-align: center;
+  }
+
+  #stage {
+    background-color: rgb(239, 239, 239);
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 3.3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    height: 45rem;
+    width: 55rem;
+  }
+
+  /********* Column B **********/
+
+  #titleB {
+    text-align: center;
+  }
+
+  #colB {
+    background-color: rgb(207, 226, 243);
+    border: 2px solid black;
+    margin-top: 1.5rem;
+    height: 45rem;
+    width: 15rem;
+  }
+
+
+  /*************Column A Pictures**************/
+
+  #sortable {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  img.colApicture {
+    padding-bottom: 3rem;
+    padding-top: 0.2rem;
+  }
+
+  /*************Column B Pictures**************/
+
+  #stagers {
+    text-align: center;
+    list-style-type: none;
+  }
+
+  img.colBpicture {
+    padding-bottom: 3rem;
+    padding-top: 0.2rem;
+  }
+
+  /*************Staging Area***************/
+
+  ul#stagedlist {
+    list-style-type: none;
+    padding-bottom: 43.3rem;
+    border-radius: 5%;
+    display: flex;
+  }
 }
 
-/********* Column A **********/
+/********** MOBILE STYLING *************/
 
-#titleA {
-  text-align: center;
-}
+@media (max-width: 650px) {
 
-#colA {
-  background-color: rgb(208, 224, 227);
-  border: 2px solid black;
-  margin-top: 1.5rem;
-  height: 45rem;
-  width: 15rem;
-}
-
-/********** STAGE ***********/
-
-#titleS {
-  text-align: center;
-}
-
-#stage {
-  background-color: rgb(239, 239, 239);
-  border: 2px solid black;
-  border-radius: 5%;
-  margin-top: 3.3rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  height: 45rem;
-  width: 55rem;
-}
-
-/********* Column B **********/
-
-#titleB {
-  text-align: center;
-}
-
-#colB {
-  background-color: rgb(207, 226, 243);
-  border: 2px solid black;
-  margin-top: 1.5rem;
-  height: 45rem;
-  width: 15rem;
-}
+  #wrapper {
+    width: 55em;
+  }
 
 
-/*************Column A Pictures**************/
+  /********* Column A **********/
 
-#sortable {
-  text-align: center;
-  list-style-type: none;
-}
+  #titleA {
+    text-align: center;
+  }
 
-img.colApicture {
-  padding-bottom: 3rem;
-  padding-top: 0.2rem;
-}
+  #colA {
+    background-color: rgb(208, 224, 227);
+    border: 2px solid black;
+    margin-top: 1.5rem;
+    height: 13em;
+    width: 55em;
+  }
 
-/*************Column B Pictures**************/
+  /********** STAGE ***********/
 
-#stagers {
-  text-align: center;
-  list-style-type: none;
-}
+  #titleS {
+    text-align: center;
+  }
 
-img.colBpicture {
-  padding-bottom: 3rem;
-  padding-top: 0.2rem;
-}
+  #stage {
+    background-color: rgb(239, 239, 239);
+    border: 2px solid black;
+    border-radius: 5%;
+    margin-top: 3.3rem;
+    margin-right: 2rem;
+    height: 45rem;
+    width: 55rem;
+  }
 
-/*************Staging Area***************/
+  /********* Column B **********/
 
-ul#stagedlist {
-  list-style-type: none;
-  padding-bottom: 43.3rem;
-  border-radius: 5%;
-  display: flex;
+  #titleB {
+    text-align: center;
+  }
+
+  #colB {
+    background-color: rgb(207, 226, 243);
+    border: 2px solid black;
+    margin-top: 1.5rem;
+    height: 13rem;
+    width: 55rem;
+  }
+
+
+  /*************Column A Pictures**************/
+
+  #sortable {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+  }
+
+  img.colApicture {
+    padding: 0.3em 3em;
+  }
+
+  /*************Column B Pictures**************/
+
+  #stagers {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+  }
+
+  img.colBpicture {
+    padding: 0.3em 3em;
+  }
+
+  /*************Staging Area***************/
+
+  ul#stagedlist {
+    list-style-type: none;
+    padding-bottom: 43.3rem;
+    border-radius: 5%;
+    display: flex;
+  }
 }
