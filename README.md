@@ -4,11 +4,11 @@
 Once cloned ```cd``` into the repo and in the terminal type ```ruby server.rb```
 After the server starts, go into your browser and visit ```localhost:4567```
 
-* Libraries/Languages
+#### Libraries/Languages
 - jQuery
 - HTML
 - CSS
 - JavaScript
 
-* Pending Functionality
+#### Pending Functionality
 - Add advanced styling
