@@ -15,7 +15,7 @@ $(document).ready(function(){
   });
 
   // Let the trash be droppable, accepting the gallery items
-  $('#stagedlist').droppable({
+  $('ul#stagedlist').droppable({
     accept: ".colBpicture"
   });
 });

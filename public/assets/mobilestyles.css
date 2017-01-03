@@ -1,6 +1,118 @@
-/************ DESKTOP STYLING **************/
+/********** MOBILE STYLING *************/
 
-@media (min-width: 1440px) {
+@media only screen and (min-width:300px) and (max-width: 750px)  {
+
+  /***********Full Site Styles************/
+  * {
+    margin: 0;
+  }
+
+  /********* NAVBAR ***********/
+
+  #topnav {
+    background: rgb(45, 53, 64);
+    width: 100%;
+  }
+
+  #rawshortslogo {
+    height: 2.4rem;
+    width: 8rem;
+    padding: 0.7rem 0.8rem;
+    padding-left: 8em;
+  }
+
+  /******* columns ********/
+
+  #wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+  /********* Column A **********/
+
+  #titleA {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+  }
+
+  #colA {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 400px;
+  }
+
+  /********** STAGE ***********/
+
+
+  #titleS {
+    text-align: center;
+  }
+
+  #stage {
+    background-color: rgb(255, 255, 255);
+    border: 2px solid gray;
+    margin-left: 1em;
+    height: 25rem;
+    width: 23rem;
+  }
+
+  /********* Column B **********/
+
+  #titleB {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    font-size: 1.2rem;
+  }
+
+  #colB {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 400px;
+  }
+
+
+  /*************Column A Pictures**************/
+
+  #sortable {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img.colApicture {
+    padding: 0.3em 3em;
+  }
+
+  /*************Column B Pictures**************/
+
+  #stagers {
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  img.colBpicture {
+    padding: 0.3em 3em;
+  }
+
+  /*************Staging Area***************/
+
+  ul#stagedlist {
+    list-style-type: none;
+    padding-bottom: 25rem;
+    display: flex;
+  }
+}
+
+/************* TABLET STYLING ****************/
+
+@media only screen and (min-width:750px) and (max-width: 1439px)  {
 
   /***********Full Site Styles************/
   * {
@@ -62,7 +174,7 @@
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     height: 33rem;
-    width: 55rem;
+    width: 29rem;
   }
 
   /********* Column B **********/
